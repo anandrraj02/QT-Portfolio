@@ -256,3 +256,33 @@ nav li a:hover{
     display: block;
     text-shadow: 1px 1px 5px black ;
 }
+.ach-row{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+table{
+    text-align: center;
+   border: 3px;
+   width: 100%;
+}
+td,th{
+    padding: 5px;
+}
+ .ach-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.ach-item {
+  transition: 0.5s;
+  text-align: center;
+  width: 25%;
+  backdrop-filter: blur(10px);
+  padding: 3px 5px;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 5px;
+}
+.ach-item:hover .ach-content{
+  max-height: 500px; }
